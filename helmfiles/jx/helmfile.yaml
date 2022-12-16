@@ -7,6 +7,8 @@ namespace: jx
 repositories:
 - name: jxgh
   url: https://jenkins-x-charts.github.io/repo
+  name: boote
+  url: https://github.com/pietromarchesani
 releases:
 - chart: jxgh/jxboot-helmfile-resources
   version: 1.1.255
@@ -26,7 +28,7 @@ releases:
   values:
   - ../../versionStream/charts/jxgh/jx-pipelines-visualizer/values.yaml.gotmpl
   - jx-values.yaml
-- chart: https://github.com/pietromarchesani/jx-preview
+- chart: boote/jx-preview
   version: 0.0.230
   name: jx-preview
   values:
