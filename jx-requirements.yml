@@ -20,7 +20,7 @@ spec:
   - key: staging
   - key: production
   ingress:
-    domain: ""
+    domain: "k8s.boote.it"
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
