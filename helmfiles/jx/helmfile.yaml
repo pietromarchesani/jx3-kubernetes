@@ -26,17 +26,6 @@ releases:
   values:
   - ../../versionStream/charts/jxgh/jx-pipelines-visualizer/values.yaml.gotmpl
   - jx-values.yaml
-- chart: ../../charts/jx-preview
-  version: 0.0.230
-  name: jx-preview
-  values:
-  - jx-values.yaml
-- chart: ../../charts/lighthouse
-  version: 1.11.3
-  name: lighthouse
-  values:
-  - ../../versionStream/charts/jxgh/lighthouse/values.yaml.gotmpl
-  - jx-values.yaml
 - chart: jxgh/bucketrepo
   version: 0.1.67
   name: bucketrepo
