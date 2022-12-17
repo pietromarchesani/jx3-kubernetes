@@ -14,18 +14,6 @@ releases:
   values:
   - ../../versionStream/charts/jxgh/jxboot-helmfile-resources/values.yaml.gotmpl
   - jx-values.yaml
-- chart: jxgh/jenkins-x-crds
-  version: 3.0.12
-  name: jenkins-x-crds
-  values:
-  - ../../versionStream/charts/jxgh/jenkins-x-crds/values.yaml.gotmpl
-  - jx-values.yaml
-- chart: jxgh/jx-pipelines-visualizer
-  version: 1.8.2
-  name: jx-pipelines-visualizer
-  values:
-  - ../../versionStream/charts/jxgh/jx-pipelines-visualizer/values.yaml.gotmpl
-  - jx-values.yaml
 - chart: jxgh/bucketrepo
   version: 0.1.67
   name: bucketrepo
@@ -37,11 +25,6 @@ releases:
   name: jx-build-controller
   values:
   - ../../versionStream/charts/jxgh/jx-build-controller/values.yaml.gotmpl
-  - jx-values.yaml
-- chart: jxgh/local-external-secrets
-  version: 0.0.14
-  name: local-external-secrets
-  values:
   - jx-values.yaml
 templates: {}
 renderedvalues: {}
