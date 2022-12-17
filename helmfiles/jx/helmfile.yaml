@@ -33,7 +33,7 @@ releases:
   - jx-values.yaml
 - chart: ../../charts/jx-preview
   version: 0.0.230
-  name: jx-preview
+  name: jx-preview-fix
   values:
   - jx-values.yaml
 - chart: jxgh/lighthouse
