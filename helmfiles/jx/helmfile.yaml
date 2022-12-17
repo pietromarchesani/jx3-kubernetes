@@ -42,6 +42,12 @@ releases:
   values:
   - ../../versionStream/charts/jxgh/lighthouse/values.yaml.gotmpl
   - jx-values.yaml
+- chart: ../../charts/lighthouse
+  version: 1.11.3
+  name: lighthouse-fix
+  values:
+  - ../../versionStream/charts/jxgh/lighthouse/values.yaml.gotmpl
+  - jx-values.yaml
 - chart: jxgh/bucketrepo
   version: 0.1.67
   name: bucketrepo
