@@ -28,7 +28,7 @@ releases:
   - jx-values.yaml
 - chart: ../../charts/jx-preview
   version: 0.0.230
-  name: jx-preview-
+  name: jx-preview
   values:
   - jx-values.yaml
 - chart: ../../charts/lighthouse
