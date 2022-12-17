@@ -36,15 +36,9 @@ releases:
   name: jx-preview-fix
   values:
   - jx-values.yaml
-- chart: jxgh/lighthouse
-  version: 1.11.3
-  name: lighthouse
-  values:
-  - ../../versionStream/charts/jxgh/lighthouse/values.yaml.gotmpl
-  - jx-values.yaml
 - chart: ../../charts/lighthouse
   version: 1.11.3
-  name: lighthouse-fix
+  name: lighthouse
   values:
   - ../../versionStream/charts/jxgh/lighthouse/values.yaml.gotmpl
   - jx-values.yaml
